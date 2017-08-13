@@ -1,0 +1,78 @@
+h1{
+	
+}
+header{
+	background-color: #205c7e;
+}
+.header_name{
+	color:#fff;
+	padding-bottom: 10px;
+}
+.list{
+	margin-top: 20px;
+	background-color: #eee;
+	border-radius: 2px;
+	border: solid 1px #ddd;
+	padding: 20px;
+}
+.card{
+	background-color: #fff;
+	/*
+	padding:5px;
+	border-radius:4px;
+	font-weight: bold;
+	border: solid 1px #ff9933;
+	margin-bottom: 2px;
+	*/
+}
+.card_name{
+	font-size: 18px;
+}
+.card_dep,
+.card_phone{
+	line-height: 25px;
+	border-left: solid 1px #ff9933;
+}
+.card_phone .glyphicon-eject{
+	transform: rotate(180deg);
+	margin-right: 5px;
+}
+.op{
+
+	cursor:pointer;
+}
+.phones{
+	background-color: #fff;
+	margin-bottom:0;
+	
+	text-align: left;
+	border-radius: 4px;
+	transition: all .1s ease-in;
+	max-height: 0;
+	overflow: hidden;
+
+}
+
+.open .phones{
+	max-height: 3000px;
+	padding:5px 0;
+	padding-left: 30px;
+	transition: max-height .7s ease-in;
+
+}
+.bar{
+	margin-top:20px;
+}
+.glyphicon{
+	cursor:pointer;
+}
+.phones li{
+	padding-bottom: 20px;
+    min-height: 30px;
+}
+.phone-change{
+	display:block;
+	margin-top: -24px;
+    display: block;
+    height: 50px;
+}
